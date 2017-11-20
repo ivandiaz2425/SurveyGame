@@ -1,17 +1,20 @@
 package com.i034114.surveygame.Models;
 
 /**
- * Created by IVANCHO on 15/11/2017.
+ * Created by IVANCHO on 19/11/2017.
  */
 
-public class Users {
+public class Register {
+
     private Integer id;
     private String name;
-    private String identification_card;
+    private String identification;
     private String phone;
     private String email;
     private String password;
+    private String password_1;
     private String status;
+
 
     public Integer getId() {
         return id;
@@ -29,12 +32,12 @@ public class Users {
         this.name = name;
     }
 
-    public String getIdentification_card() {
-        return identification_card;
+    public String getIdentification() {
+        return identification;
     }
 
-    public void setIdentification_card(String identification_card) {
-        this.identification_card = identification_card;
+    public void setIdentification(String identification) {
+        this.identification = identification;
     }
 
     public String getPhone() {
@@ -59,6 +62,14 @@ public class Users {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getPassword_1() {
+        return password_1;
+    }
+
+    public void setPassword_1(String password_1) {
+        this.password_1 = password_1;
     }
 
     public String getStatus() {

@@ -11,8 +11,6 @@ import com.i034114.surveygame.Views.Activity_Login;
 
 public class Pantalla_Uno extends AppCompatActivity {
 
-    private TextView txtName;
-    private TextView txtEmail;
     private Button btnLogout;
 
     @Override
@@ -20,8 +18,6 @@ public class Pantalla_Uno extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pantalla__uno);
 
-        txtName = (TextView) findViewById(R.id.name);
-        txtEmail = (TextView) findViewById(R.id.email);
         btnLogout = (Button) findViewById(R.id.btnLogout);
 
         btnLogout.setOnClickListener(new View.OnClickListener() {
